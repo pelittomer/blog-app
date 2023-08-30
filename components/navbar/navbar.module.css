@@ -1,0 +1,63 @@
+.container {
+    padding: 25px 10px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navOnline {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navOffline  {
+    display: flex;
+    gap: 10px;
+}
+.navOffline a{
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.popup {
+    display: none;
+}
+
+.active {
+    display: flex;
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 40px;
+    left: 35px;
+    width: 80px;
+    min-height: 100%;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 0px;
+}
+
+.active p {
+    cursor: pointer;
+}
+
+.avatar {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.rightbar {
+    display: flex;
+}

@@ -1,0 +1,135 @@
+.container {
+    padding: 10px 30px;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.container button{
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 5px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.setSetting {
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.setting {
+    display: none;
+}
+
+.active {
+    background-color: yellow;
+    position: absolute;
+    top: 30px;
+    gap: 10px;
+}
+
+.active button {
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 5px;
+
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 5px;
+}
+
+.like {
+    cursor: pointer;
+}
+
+.title {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.img {
+    margin: 20px 0;
+    border-radius: 16px;
+    width: 500px;
+}
+
+.contentBox {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 25px 10px;
+}
+
+.comments {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.description{
+    line-height: 1.5rem;
+}
+
+.commentsForm {
+    display: flex;
+    gap: 10px;
+}
+
+.formcontainer {
+    display: flex;
+    max-width: 1500px;
+    margin: 20px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.commentsForm textarea {
+    border-radius: 8px;
+    min-width:100%;
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+
+.commentsForm button {
+    padding: 0px 30px;
+    border-radius: 8px;
+    border: none;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+
+
+.box {
+    display: flex;
+    gap: 10px;
+}

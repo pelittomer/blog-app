@@ -1,0 +1,11 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+/*
+relative cursor-pointer hover:opacity-70 border-dashed border-2  flex flex-col justify-center items-center h-[500px]
+*/

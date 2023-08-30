@@ -1,0 +1,24 @@
+.container {
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.head {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

@@ -1,0 +1,56 @@
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.post {
+    border: 3px solid white;
+    border-radius: 16px;
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 425px;
+}
+
+.title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.details button {
+    width: 130px;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.img {
+    width: 100%;
+}
