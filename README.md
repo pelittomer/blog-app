@@ -1,3 +1,20 @@
+# blog-app
+
+<h1>Preview </h1>
+
+https://github.com/pelittomer/blog-app/assets/127727007/c0368b29-fabb-4da9-a5cf-8e46878ec077
+
+<h2>You will need; </h2>
+<li>MongoDB</li>
+<li>Prisma</li>
+<li>Cloudinary</li>
+<li>React-hot-toast</li>
+<li>React-icons</li>
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
