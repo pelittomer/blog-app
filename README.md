@@ -12,7 +12,7 @@ https://github.com/pelittomer/blog-app/assets/127727007/c0368b29-fabb-4da9-a5cf-
 <li>React-icons</li>
 
 
-
+---
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
